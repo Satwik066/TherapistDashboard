@@ -1,0 +1,404 @@
+.welcome-back-therapist {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.logged-in-students {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-32);
+}
+.welcometext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.header,
+.search-by-name {
+  font-family: var(--font-opendyslexic);
+  color: var(--color-black);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-cornflowerblue);
+  border: 3px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 164px;
+  text-align: center;
+  font-size: 46px;
+}
+.search-by-name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-24);
+  background-color: transparent;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  opacity: 0.5;
+  min-width: 250px;
+  padding: 0;
+}
+.searchbar,
+.searchbarcontainer,
+.searchbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchbar {
+  height: 60px;
+  width: 1150px;
+  border-radius: var(--br-20);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-6) 27px;
+  max-width: 100%;
+}
+.searchbarcontainer,
+.searchbutton {
+  justify-content: center;
+}
+.searchbutton {
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-30);
+  background-color: var(--color-cornflowerblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  padding: var(--padding-8) 9px;
+}
+.searchbarcontainer {
+  align-self: stretch;
+  gap: var(--gap-16);
+  max-width: 100%;
+}
+.add-child {
+  position: relative;
+  font-size: var(--font-size-24);
+  font-family: var(--font-opendyslexic);
+  color: var(--color-black);
+  text-align: center;
+}
+.addchildbutton,
+.addchildtext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.addchildbutton {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-8) var(--padding-4);
+  background-color: var(--color-peachpuff);
+  width: 100%;
+  height: 67px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-30);
+  box-sizing: border-box;
+  max-width: 232px;
+}
+.username1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-opendyslexic);
+  font-size: var(--font-size-24);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 95px;
+  padding: 0;
+}
+.username {
+  align-self: stretch;
+  height: 60px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-20);
+  background-color: var(--color-snow);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6) var(--padding-20);
+}
+.name1,
+.password1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-opendyslexic);
+  font-size: var(--font-size-24);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 55px;
+  padding: 0;
+}
+.password1 {
+  min-width: 88px;
+}
+.inputfields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.addchildbutton1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-8) var(--padding-4);
+  background-color: var(--color-peachpuff);
+  width: 232px;
+  height: 67px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-30);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.addchildcard,
+.addchildform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addchildform {
+  margin: 0;
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.addchildcard {
+  width: 800px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-30);
+  background-color: var(--color-lightsteelblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 47px 98px;
+}
+.game-sessions-for {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.session-num-game-difficul {
+  margin: 0;
+}
+.session-num-game-difficul-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.emotiontimeline-child {
+  border: 0;
+  background-color: var(--color-gainsboro-200);
+  height: 238px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+}
+.emotiontimeline,
+.sessiondata {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.emotiontimeline {
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  text-align: left;
+}
+.sessiondata {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gamesessioncard,
+.joyverse1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamesessioncard {
+  width: 100%;
+  height: 642px;
+  border-radius: var(--br-30);
+  background-color: var(--color-lightsteelblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 22px 34px;
+  max-width: 1225px;
+  text-align: center;
+  font-size: var(--font-size-28);
+  color: var(--color-black);
+  font-family: var(--font-opendyslexic);
+}
+.joyverse1 {
+  margin: 0;
+  width: 270px;
+  height: 80px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.footer,
+.therapistdashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-opendyslexic);
+}
+.footer {
+  align-self: stretch;
+  height: 120px;
+  background-color: var(--color-cornflowerblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 17px 513px;
+  font-size: 40px;
+}
+.therapistdashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-beige);
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 78.3px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 36px;
+}
+@media screen and (max-width: 1275px) {
+  .searchbarcontainer {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .gamesessioncard {
+    max-width: 100%;
+    width: calc(100% - 40px);
+  }
+  .footer {
+    padding-left: 256px;
+    padding-right: 256px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .addchildcard {
+    padding-left: 49px;
+    padding-right: 49px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    padding-left: 82px;
+    padding-right: 82px;
+    box-sizing: border-box;
+  }
+  .addchildform,
+  .inputfields {
+    gap: var(--gap-26);
+  }
+  .addchildcard {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+  .game-sessions-for {
+    font-size: 29px;
+  }
+  .gamesessioncard {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .joyverse1 {
+    font-size: var(--font-size-32);
+  }
+  .footer {
+    padding-left: 128px;
+    padding-right: 128px;
+    box-sizing: border-box;
+  }
+  .therapistdashboard {
+    gap: 39px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .add-child,
+  .search-by-name {
+    font-size: var(--font-size-19);
+  }
+  .addchildbutton {
+    width: calc(100% - 40px);
+  }
+  .name1,
+  .password1,
+  .username1 {
+    font-size: var(--font-size-19);
+  }
+  .addchildcard {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .game-sessions-for,
+  .session-num-game-difficul-container {
+    font-size: var(--font-size-22);
+  }
+  .joyverse1 {
+    font-size: var(--font-size-24);
+  }
+  .footer {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .therapistdashboard {
+    gap: 20px;
+  }
+}

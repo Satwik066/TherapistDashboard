@@ -1,0 +1,21 @@
+.icon,
+.search {
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.search {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  flex-shrink: 0;
+}
