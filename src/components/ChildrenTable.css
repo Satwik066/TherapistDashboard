@@ -82,17 +82,10 @@
   color: var(--color-black);
   font-family: var(--font-opendyslexic);
 }
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1000px) {
   .childrentable {
     max-width: 100%;
     width: calc(100% - 40px);
-  }
-}
-@media screen and (max-width: 750px) {
-  .tableheader {
-    height: auto;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 @media screen and (max-width: 450px) {

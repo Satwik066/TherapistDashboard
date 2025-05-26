@@ -6,7 +6,7 @@ import "./TherapistDashboard.css";
 const TherapistDashboard: FunctionComponent = () => {
   return (
     <div className="therapistdashboard">
-      <header className="header">
+      <header className="header1">
         <div className="welcometext">
           <h3 className="welcome-back-therapist">Welcome Back, Therapist!</h3>
           <div className="logged-in-students">Logged-in Students</div>

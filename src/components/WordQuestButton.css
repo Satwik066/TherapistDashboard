@@ -1,0 +1,46 @@
+.button-shapes,
+.word-quest {
+  align-self: stretch;
+  position: relative;
+}
+.button-shapes {
+  height: 200px;
+  border-radius: var(--br-20);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.word-quest {
+  font-size: var(--font-size-26);
+  font-family: var(--font-opendyslexic);
+  color: var(--color-black);
+  text-align: center;
+}
+.wordquest,
+.wordquestbutton {
+  height: 298px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wordquest {
+  align-self: stretch;
+  padding: 0 0 var(--padding-30);
+  gap: 21px;
+}
+.wordquestbutton {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-lightsteelblue);
+  width: 300px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-20);
+}
+@media screen and (max-width: 450px) {
+  .word-quest {
+    font-size: 21px;
+  }
+}

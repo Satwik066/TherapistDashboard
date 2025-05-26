@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Desktop2 from "./pages/Desktop2";
+import Games from "./pages/Games";
 import TherapistDashboard from "./pages/TherapistDashboard";
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/games":
         title = "";
         metaDescription = "";
         break;
@@ -51,6 +56,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Desktop2 />} />
+      <Route path="/games" element={<Games />} />
       <Route path="/therapistdashboard" element={<TherapistDashboard />} />
     </Routes>
   );

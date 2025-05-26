@@ -19,12 +19,12 @@
   justify-content: center;
   gap: 18px;
 }
-.header,
+.header1,
 .search-by-name {
   font-family: var(--font-opendyslexic);
   color: var(--color-black);
 }
-.header {
+.header1 {
   align-self: stretch;
   background-color: var(--color-cornflowerblue);
   border: 3px solid var(--color-black);
@@ -305,7 +305,7 @@
   letter-spacing: normal;
   font-size: 36px;
 }
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1000px) {
   .searchbarcontainer {
     height: auto;
     flex-wrap: wrap;
@@ -320,7 +320,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 975px) {
   .addchildcard {
     padding-left: 49px;
     padding-right: 49px;
@@ -328,43 +328,8 @@
     width: calc(100% - 40px);
   }
 }
-@media screen and (max-width: 750px) {
-  .header {
-    padding-left: 82px;
-    padding-right: 82px;
-    box-sizing: border-box;
-  }
-  .addchildform,
-  .inputfields {
-    gap: var(--gap-26);
-  }
-  .addchildcard {
-    padding-top: 31px;
-    padding-bottom: 31px;
-    box-sizing: border-box;
-  }
-  .game-sessions-for {
-    font-size: 29px;
-  }
-  .gamesessioncard {
-    padding-top: var(--padding-20);
-    padding-bottom: var(--padding-20);
-    box-sizing: border-box;
-  }
-  .joyverse1 {
-    font-size: var(--font-size-32);
-  }
-  .footer {
-    padding-left: 128px;
-    padding-right: 128px;
-    box-sizing: border-box;
-  }
-  .therapistdashboard {
-    gap: 39px;
-  }
-}
 @media screen and (max-width: 450px) {
-  .header {
+  .header1 {
     padding-left: var(--padding-20);
     padding-right: var(--padding-20);
     box-sizing: border-box;
@@ -399,6 +364,6 @@
     box-sizing: border-box;
   }
   .therapistdashboard {
-    gap: 20px;
+    gap: var(--gap-20);
   }
 }

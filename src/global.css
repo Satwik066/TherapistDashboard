@@ -15,24 +15,24 @@ body {
 }
 :root {
   /* Color */
-  --color-lightsteelblue: #cdd9ff;
   --color-white: #fff;
-  --color-cornflowerblue: #96adfc;
-  --color-beige: #fefee7;
   --color-darkslategray: #333;
   --color-tan: #e6c2a1;
   --color-peachpuff: #ffdab9;
   --color-snow: #fffbfb;
-  --color-black: #000;
-  --color-gainsboro-200: #d9d9d9;
-  --color-gainsboro-100: #dadada;
   --color-gray-300: rgba(30, 30, 30, 0.5);
   --color-gray-200: rgba(0, 0, 0, 0.2);
   --color-gray-100: #2c2c2c;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-100: #dadada;
+  --color-lightsteelblue: #cdd9ff;
+  --color-cornflowerblue: #96adfc;
+  --color-black: #000;
+  --color-beige: #fefee7;
 
   /* Gap */
-  --gap-26: 26px;
   --gap-16: 16px;
+  --gap-20: 20px;
 
   /* Padding */
   --padding-11: 11px;
@@ -41,11 +41,13 @@ body {
   --padding-8: 8px;
   --padding-6: 6px;
   --padding-10: 10px;
+  --padding-30: 30px;
   --padding-20: 20px;
+  --padding-14: 14px;
 
   /* BorderRadius */
-  --br-20: 20px;
   --br-30: 30px;
+  --br-20: 20px;
 
   /* Font */
   --font-opendyslexic: OpenDyslexic;
@@ -56,6 +58,7 @@ body {
   --font-size-16: 16px;
   --font-size-19: 19px;
   --font-size-24: 24px;
+  --font-size-26: 26px;
   --font-size-32: 32px;
 
   /* Figma Variables */
